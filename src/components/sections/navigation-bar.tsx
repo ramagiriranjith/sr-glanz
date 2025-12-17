@@ -35,14 +35,14 @@ export function NavigationBar() {
       <div className="mx-auto px-4 md:px-10 max-w-[1280px]">
         <div className="flex items-center justify-between h-[80px]">
           <Link href="/" className="flex-shrink-0 relative z-50">
-            <Image
-              src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/e12b34e1-95bf-45dc-a20e-8e1714eb6026-techno-lance-com/assets/images/6812c7bd0c0ee3278f60f5e1_horozontal_20logo_20multi-1.png"
+              <Image
+                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/sr_glanz_logo-1765992284834.png?width=8000&height=8000&resize=contain"
                 alt="SR Glanz Logo"
-              width={176}
-              height={43}
-              className="w-[140px] md:w-[176px] h-auto object-contain"
-              priority
-            />
+                width={176}
+                height={43}
+                className="w-[140px] md:w-[176px] h-auto object-contain"
+                priority
+              />
           </Link>
 
           <nav className="hidden lg:flex items-center gap-8">

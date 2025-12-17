@@ -7,15 +7,15 @@ export function Footer() {
       <div className="container mx-auto px-6 md:px-10 max-w-[1240px]">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 mb-20">
           <div className="lg:col-span-5 flex flex-col items-start gap-6 pr-0 lg:pr-12">
-            <Link href="/" className="block">
-              <Image 
-                src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/test-clones/e12b34e1-95bf-45dc-a20e-8e1714eb6026-techno-lance-com/assets/images/6813d9776e79786155475b74_horizontal_20logo_20multi-19.png"
+              <Link href="/" className="block">
+                <Image 
+                  src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/render/image/public/document-uploads/sr_glanz_logo-1765992284834.png?width=8000&height=8000&resize=contain"
                   alt="SR Glanz"
-                width={200}
-                height={50}
-                className="w-48 h-auto object-contain brightness-0 invert"
-              />
-            </Link>
+                  width={200}
+                  height={50}
+                  className="w-48 h-auto object-contain"
+                />
+              </Link>
             <p className="text-[#D4D4D4] text-[15px] leading-relaxed max-w-[320px] font-normal">
               Empowering businesses to succeed in the digital age.
             </p>
