@@ -15,7 +15,7 @@ export function TrustedLogos() {
   ];
 
   return (
-    <section className="py-12 bg-[#fff1de] border-b border-[#E0E0E0]/50">
+    <section className="py-12 bg-white border-b border-[#E0E0E0]/50">
       <div className="container mx-auto px-4 md:px-8 lg:px-12 max-w-[1200px]">
         <div className="flex flex-col md:flex-row items-center gap-8 md:gap-16">
           <div className="shrink-0 text-sm font-medium text-[#595959] whitespace-nowrap">

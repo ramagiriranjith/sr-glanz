@@ -10,7 +10,7 @@ const stats = [
 
 export function WhoWeAre() {
   return (
-    <section className="w-full bg-[#fff1de] py-16 md:py-20 lg:py-24">
+    <section className="w-full bg-white py-16 md:py-20 lg:py-24">
       <div className="container mx-auto px-4 md:px-6 lg:px-10 max-w-[1200px]">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 xl:gap-24 items-start mb-16 lg:mb-24">
           <div className="relative w-full rounded-2xl overflow-hidden shadow-sm">
@@ -49,7 +49,7 @@ export function WhoWeAre() {
               <div className="mt-8">
                 <Link 
                   href="/about-us" 
-                  className="inline-flex items-center justify-center px-8 py-3 bg-[#febd73] hover:bg-[#fff1de] text-[#1A1A1A] text-sm font-semibold rounded-full transition-all duration-300 transform active:scale-95"
+                  className="inline-flex items-center justify-center px-8 py-3 bg-[#febd73] hover:bg-white text-[#1A1A1A] text-sm font-semibold rounded-full transition-all duration-300 transform active:scale-95"
                 >
                   Meet SR Glanz
                 </Link>

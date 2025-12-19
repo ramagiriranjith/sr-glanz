@@ -10,7 +10,7 @@ const features = [
 
 export function WhyWorkWithUs() {
   return (
-    <section className="bg-[#fff1de] py-20 lg:py-32">
+    <section className="bg-white py-20 lg:py-32">
       <div className="container mx-auto px-4 md:px-6 lg:px-10 max-w-[1248px]">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
           <div className="lg:col-span-5 flex flex-col justify-start">
@@ -26,7 +26,7 @@ export function WhyWorkWithUs() {
                 </p>
             </div>
             <div>
-                <Link href="/contact" className="inline-block bg-[#febd73] text-[#1A1A1A] font-semibold text-base px-8 py-3.5 rounded-full hover:bg-[#fff1de] transition-all duration-300">
+                <Link href="/contact" className="inline-block bg-[#febd73] text-[#1A1A1A] font-semibold text-base px-8 py-3.5 rounded-full hover:bg-white transition-all duration-300">
                 Let&apos;s Build Something Better Together
               </Link>
             </div>

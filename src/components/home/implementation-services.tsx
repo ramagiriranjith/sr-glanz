@@ -12,7 +12,7 @@ const services = [
 
 export function ImplementationServices() {
   return (
-    <section className="bg-[#fff1de] py-20 text-[#1A1A1A]">
+    <section className="bg-white py-20 text-[#1A1A1A]">
       <div className="container mx-auto px-4 md:px-6 lg:px-10 max-w-[1240px]">
         <div className="text-center mb-16 px-4">
           <h2 className="text-[#1A1A1A] mb-6 font-[family-name:var(--font-display)] text-[40px] font-medium leading-[1.2]">

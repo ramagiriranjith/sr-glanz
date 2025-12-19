@@ -9,7 +9,7 @@ import Link from "next/link";
 
 export default function AboutUsPage() {
   return (
-    <div className="min-h-screen bg-[#fff1de]">
+    <div className="min-h-screen bg-white">
       <NavigationBar />
       
       <main>

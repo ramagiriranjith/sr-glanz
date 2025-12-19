@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export function HeroSection() {
   return (
-    <section className="bg-[#fff1de] py-20 md:py-28 lg:py-32 overflow-hidden">
+    <section className="bg-white py-20 md:py-28 lg:py-32 overflow-hidden">
       <div className="container mx-auto px-4 md:px-6 lg:px-10 max-w-[1200px]">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <div className="flex flex-col items-start max-w-[600px] lg:max-w-none animate-fade-in-up">

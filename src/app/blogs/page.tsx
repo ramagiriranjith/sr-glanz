@@ -29,7 +29,7 @@ export default function BlogPage() {
   });
 
   return (
-    <div className="min-h-screen bg-[#fff1de]">
+    <div className="min-h-screen bg-white">
       <NavigationBar />
       
       <main>
@@ -49,7 +49,7 @@ export default function BlogPage() {
             <div className="flex flex-col md:flex-row items-center justify-between gap-6 bg-white p-4 md:p-2 rounded-2xl md:rounded-full border border-[#E0E0E0] shadow-sm">
               <div className="flex flex-wrap justify-center gap-2 px-2">
                 {CATEGORIES.map((category) => (
-                  <button key={category} onClick={() => setActiveCategory(category)} className={`px-5 py-2 rounded-full text-sm font-medium transition-all duration-200 ${activeCategory === category ? 'bg-[#C3E944] text-[#1A1A1A]' : 'bg-transparent text-[#595959] hover:bg-[#fff1de] hover:text-[#1A1A1A]'}`}>
+                  <button key={category} onClick={() => setActiveCategory(category)} className={`px-5 py-2 rounded-full text-sm font-medium transition-all duration-200 ${activeCategory === category ? 'bg-[#C3E944] text-[#1A1A1A]' : 'bg-transparent text-[#595959] hover:bg-white hover:text-[#1A1A1A]'}`}>
                     {category}
                   </button>
                 ))}

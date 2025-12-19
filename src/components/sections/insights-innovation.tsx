@@ -21,7 +21,7 @@ export default function InsightsInnovation() {
   ];
 
   return (
-    <section className="bg-[#fff1de] py-20 lg:py-24">
+    <section className="bg-white py-20 lg:py-24">
       <div className="container mx-auto px-4 md:px-8 lg:px-10 max-w-[1240px]">
         {/* Header Content */}
         <div className="text-center max-w-3xl mx-auto mb-16">

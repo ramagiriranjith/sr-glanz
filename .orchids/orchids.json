@@ -4,5 +4,7 @@
   "version": "1.0",
   "startupCommands": [
     "npm install; npm run dev"
-  ]
+  ],
+  "vercelProjectId": "prj_JkmNsUqCUneuJbX51fPKZ5Dvtq4f",
+  "deployedWithUserToken": false
 }

@@ -5,7 +5,7 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --color-background: #fff1de;
+  --color-background: #FFFFFF;
   --color-foreground: #1A1A1A;
 
   --color-card: #FFFFFF;
@@ -14,7 +14,7 @@
   --color-popover: #FFFFFF;
   --color-popover-foreground: #1A1A1A;
 
-  --color-primary: #fff1de;
+  --color-primary: #FFFFFF;
   --color-primary-foreground: #1A1A1A;
 
   --color-secondary: #febd73;

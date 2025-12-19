@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function WhoWeAre() {
   return (
-    <section className="w-full bg-[#fff1de] py-16 md:py-20 lg:py-24">
+    <section className="w-full bg-white py-16 md:py-20 lg:py-24">
       <div className="container mx-auto px-4 md:px-6 lg:px-10 max-w-[1200px]">
         {/* Top Section: Image and Text */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 xl:gap-24 items-start mb-16 lg:mb-24">

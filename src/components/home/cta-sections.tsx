@@ -6,7 +6,7 @@ import { ArrowRight } from "lucide-react";
 
 export function CtaSections() {
   return (
-    <section className="bg-[#fff1de] py-16 lg:py-24">
+    <section className="bg-white py-16 lg:py-24">
       <div className="container mx-auto px-4 md:px-6 lg:px-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
             <div className="relative overflow-hidden rounded-[32px] bg-[#febd73] p-8 md:p-12 lg:p-16 flex flex-col justify-center items-start">

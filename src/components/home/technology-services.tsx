@@ -13,7 +13,7 @@ const services = [
 
 export function TechnologyServices() {
   return (
-    <section className="bg-[#fff1de] py-20 lg:py-24">
+    <section className="bg-white py-20 lg:py-24">
       <div className="container mx-auto px-5 md:px-8 lg:px-12 max-w-[1280px]">
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto mb-16 space-y-4">
           <h2 className="text-[2.5rem] md:text-[40px] leading-[1.2] font-medium font-[family-name:var(--font-display)] text-[#1A1A1A]">

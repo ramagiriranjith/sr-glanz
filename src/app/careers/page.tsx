@@ -23,7 +23,7 @@ const openPositions = [
 
 export default function CareersPage() {
   return (
-    <div className="min-h-screen bg-[#fff1de]">
+    <div className="min-h-screen bg-white">
       <NavigationBar />
       
       <main>

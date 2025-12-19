@@ -52,7 +52,7 @@ const services = [
 
 export default function TechnologyServices() {
   return (
-    <section className="bg-[#fff1de] py-20 lg:py-24 font-body text-primary-text">
+    <section className="bg-white py-20 lg:py-24 font-body text-primary-text">
       <div className="container mx-auto px-5 md:px-8 lg:px-12 max-w-[1280px]">
         {/* Section Header */}
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto mb-16 space-y-4">

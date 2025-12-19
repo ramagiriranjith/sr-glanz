@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function HeroSection() {
   return (
-    <section className="bg-[#fff1de] py-16 md:py-20 lg:py-[80px]">
+    <section className="bg-white py-16 md:py-20 lg:py-[80px]">
       <div className="container mx-auto px-4 md:px-6 lg:px-10 max-w-[1200px]">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Text Content */}

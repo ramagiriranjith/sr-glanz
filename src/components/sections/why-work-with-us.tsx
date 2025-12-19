@@ -1,6 +1,6 @@
 export default function WhyWorkWithUsSection() {
   return (
-    <section className="bg-[#fff1de] py-20 lg:py-32">
+    <section className="bg-white py-20 lg:py-32">
       <div className="container mx-auto px-4 md:px-6 lg:px-10 max-w-[1248px]">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20">
           {/* Left Column - Content */}

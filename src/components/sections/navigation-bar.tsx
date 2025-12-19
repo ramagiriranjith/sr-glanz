@@ -31,7 +31,7 @@ export function NavigationBar() {
   }, []);
 
   return (
-    <div className="w-full bg-[#fff1de]/95 backdrop-blur-md sticky top-0 z-[1000] border-b border-[#E0E0E0]/30">
+    <div className="w-full bg-white/95 backdrop-blur-md sticky top-0 z-[1000] border-b border-[#E0E0E0]/30">
       <div className="mx-auto px-4 md:px-10 max-w-[1280px]">
         <div className="flex items-center justify-between h-[88px]">
           <Link href="/" className="flex-shrink-0 relative z-50 transition-transform hover:scale-105 duration-300">
@@ -108,7 +108,7 @@ export function NavigationBar() {
         </div>
       </div>
 
-      <div className={`fixed inset-0 z-40 bg-[#fff1de] lg:hidden transition-transform duration-300 ease-in-out pt-[100px] px-6 overflow-y-auto ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+      <div className={`fixed inset-0 z-40 bg-white lg:hidden transition-transform duration-300 ease-in-out pt-[100px] px-6 overflow-y-auto ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
         <div className="flex flex-col gap-8 items-center w-full">
           <Link href="/" onClick={() => setIsOpen(false)} className="text-[20px] font-medium text-[#0A0D14]">Home</Link>
           <Link href="/about-us" onClick={() => setIsOpen(false)} className="text-[20px] font-normal text-[#171717]">About us</Link>

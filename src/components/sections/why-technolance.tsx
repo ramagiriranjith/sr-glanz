@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function WhyTechnolance() {
   return (
-    <section className="bg-[#fff1de] py-20 lg:py-24">
+    <section className="bg-white py-20 lg:py-24">
       <div className="container mx-auto px-4 md:px-6 lg:px-10">
         <div className="flex flex-col items-center text-center mb-10 md:mb-14">
           <h2 className="text-[#1A1A1A] text-4xl md:text-[2.5rem] font-medium leading-[1.2] mb-6 font-[family-name:var(--font-display)]">
